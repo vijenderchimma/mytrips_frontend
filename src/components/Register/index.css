@@ -1,0 +1,54 @@
+.register-container{
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    padding: 20px;
+}
+
+.registration{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user-input{
+    display: block;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #808080;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.gender {
+    margin-right: 10px;
+}
+.radio-label{
+    margin-right: 10px;
+}
+
+.register-button{
+    display: block;
+    border: none;
+    background-color: #1313e2;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.register-status{
+    color: green;
+    margin-top: 20px;
+}

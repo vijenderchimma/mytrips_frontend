@@ -1,0 +1,47 @@
+.nav-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.links-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.website-logo{
+    width: 200px;
+    height: 80px;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+
+
+.logout-button{
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.select-button{
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    width: 100px;
+    outline: none;
+}
+
+.option{
+    color: hwb(0 3% 97%);
+    background-color: #ffffff
+}
