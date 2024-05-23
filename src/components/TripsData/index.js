@@ -1,4 +1,5 @@
 import './index.css'
+import API_URL from '../Helpers/ApiPath';
 
 const TripsData = (props) => {
     const {eachData} = props
@@ -6,7 +7,7 @@ const TripsData = (props) => {
     return (
         <li className='list-item'>
             {eachData.image ?
-                <img src = {`http://localhost:4000/uploads/${eachData.image}`} alt = {eachData.name} className="image" />: "" }
+                <img src = {`${API_URL}/uploads/${eachData.image}`} alt = {eachData.name} className="image" />: "" }
                 <div className='content-container'>
                     <h1 className='name'><span className='span'>Name: </span>{eachData.name}</h1>
                     <p className='state'><span className='span'>State: </span>{eachData.state}</p>
